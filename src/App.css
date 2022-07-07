@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  background-color: #e8f0f3af;
+  width: 3rem;
+  height: 1.5rem;
+  padding: .25rem;
+  margin-right: .25rem;
+  margin-bottom: .25rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px #888888;
+  transition: all .1s ease-in-out;
+  border: 1px solid;
+} 
+
+.btn:hover {
+  background-color: white !important;
+}
+
+.btn-selected {
+  background-color: white !important;
+}
+
+.working-head {
+  width: 1450px;
+  height: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.working-title {
+  margin-left: 1rem;
+}
+
+.working-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 12rem;
+  justify-content: space-around;
+}
+
+.working-area {
+  width: 1450px;
+  height: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 8px;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 100px 150px 150px 200px 250px 150px 200px 250px;
+cursor: pointer;
+}
+
+.grid-holder {
+  margin-top:2rem;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.grid-item {
+background-color: #e8f0f3af;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 8px;
+min-height: 2rem;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.grid-head {
+  background-color: white;
+}
+
+.additional-row {
+  border: 1px solid rgba(129, 129, 129, 0.6);
+  padding: 8px;
+  text-align: center;
+}
+
+.grid-content {
+  height: 1600px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
